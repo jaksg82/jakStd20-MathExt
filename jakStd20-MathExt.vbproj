@@ -3,10 +3,11 @@
   <PropertyGroup>
     <RootNamespace>jakStd20_MathExt</RootNamespace>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Extra Math Functios</Description>
     <Copyright>Copyright © Simone Giacomoni 2018</Copyright>
     <OptionStrict>On</OptionStrict>
+    <Version>0.2.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
