@@ -1,13 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>jakStd20_MathExt</RootNamespace>
+    <RootNamespace>MathExt</RootNamespace>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Extra Math Functios</Description>
+    <Description>Extra Math Functions</Description>
     <Copyright>Copyright © Simone Giacomoni 2018</Copyright>
     <OptionStrict>On</OptionStrict>
     <Version>0.2.0</Version>
+    <PackageId>jaksg82.Std20.MathExt</PackageId>
+    <Authors>jaksg82</Authors>
+    <Product>Standard2.0 library MathExt</Product>
+    <PackageProjectUrl>https://github.com/jaksg82/jakStd20-MathExt</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/jaksg82/jakStd20-MathExt/blob/master/README.md</PackageLicenseUrl>
+    <PackageTags>math</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
